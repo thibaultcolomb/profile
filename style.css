@@ -1,0 +1,162 @@
+
+body {
+  background-color: #edede9;
+  font-family: Tahoma, sans-serif;
+  color: rgb(111,111,111);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h1 {
+  color: #1d3557;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #9e0059;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+h3 {
+  color: #9e0059;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+a {
+  color: #3a0ca3;
+}
+
+a:hover {
+  color: #7678ed;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.text-ctr {
+  text-align: center;
+}
+
+.card {
+  background: whitesmoke;
+  border: 0.1px solid rgb(220,220,220);
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 35px;
+}
+
+.button {
+  background: #3a0ca3;
+  color: white;
+  border: 0.1px solid rgb(220,220,220);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #7678ed;
+  color: white;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 13px;
+  }
+  h3 {
+    font-size: 19px;
+    line-height: 14px;
+  }
+  body {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  i {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  h1 {
+    font-size: 22px;
+    line-height: 11px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 13px;
+  }
+  body {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  i {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 12px;
+  }
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  i {
+    font-size: 15px;
+  }
+}
